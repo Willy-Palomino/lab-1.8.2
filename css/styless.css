@@ -1,0 +1,84 @@
+body{
+  background-color: #caddda;
+  color:#555;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:1.6em;
+  margin:0;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+#mainHeader{
+  background-color: rgb(77, 172, 155);
+  color:#fff;
+}
+
+#navbar{
+  background-color: rgb(45, 43, 43);
+  color:#fff;
+}
+
+#navbar ul{
+  padding:0;
+  list-style:none;
+}
+
+#navbar li{
+  display:inline;
+}
+
+#navbar a{
+  color:#fff;
+  text-decoration:none;
+  font-size:25px;
+  padding-right:50px;
+}
+
+#showcase{
+  background-image: url("../images/light.jpeg");
+  background-size: 100%;
+  min-height:200px;
+}
+
+#main{
+  float:left;
+  width:60%;
+  background:rgb(69, 116, 46);
+  color:#fff;
+  padding:10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+#sidebar{
+  float: left;
+  width:60%;
+  background:rgb(77, 92, 61);
+  color:#fff;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+#mainFooter{
+  background: #333;
+  color:#fff;
+  text-align: center;
+  padding:20px;
+  padding-top: 30px;
+}
+
+@media(max-width:600px){
+  #main{
+    width:100%;
+    float:none;
+  }
+  #sidebar{
+    width:100%;
+    float:none;
+  }
+}
